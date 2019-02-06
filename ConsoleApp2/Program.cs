@@ -12,6 +12,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             MethodA();
+            Console.ReadLine();
         }
         static void MethodA()
         {
@@ -28,7 +29,7 @@ namespace ConsoleApp2
         {
             i++;
             return true;
-            Console.ReadLine();
+            
         }
        
     }
