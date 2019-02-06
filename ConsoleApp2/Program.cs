@@ -15,6 +15,7 @@ namespace ConsoleApp2
         }
         static void MethodA()
         {
+            Console.WriteLine("i is {0} ", i);
             while (Peanut())
             {
                 if(i>10)
